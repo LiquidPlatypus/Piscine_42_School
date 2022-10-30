@@ -31,7 +31,7 @@ void	ft_print_combn(int n)
 			write(1, &a, 1);
 			write(1, &b, 1);
 			if (!(a == '8' && b == '9'))
-				write(1, ", ");
+				write(1, ", ", 2);
 			b++;
 		}
 		a++;
